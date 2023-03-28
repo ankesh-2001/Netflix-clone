@@ -9,12 +9,12 @@ export default function Home({ type }) {
         <div className="home">
             <Navbar></Navbar>
             <Featured type={type}></Featured>
-            <List type="popular" section="POPULAR"></List>
-            <List type="upcoming" section="UPCOMING"></List>
+            <List type="popular" section="LATEST"></List>
+            <List type="upcoming" section="POPULAR"></List>
             <List type="top_rated" section="TOP RATED"></List>
-            <List type="popular" section="POPULAR"></List>
+            <List type="popular" section="SERIES"></List>
             <List type="upcoming" section="UPCOMING"></List>
-            <List type="top_rated" section="TOP RATED"></List>
+            <List type="top_rated" section="ACTION"></List>
         </div>
 
     )
